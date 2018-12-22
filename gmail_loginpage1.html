@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<style>
+.black-text{
+color: black}
+p4{
+  font-family:roboto;
+  font-style: normal;
+  font-size: 25px;
+}
+p1{
+  font-size:18px;
+}
+p2{
+  font-size:18px;
+}
+p3{
+  font-size:18px;
+}
+.smaller-image{
+  width:100px;
+}
+.box{
+  border-style: solid;
+  border-width: thin;
+  border-color:silver;
+  margin-left:400px;
+  margin-right: 500px;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+.image-place{
+  margin-left:150px;
+  margin-right: auto;
+}
+.text-place{
+  margin-left:100px;
+}
+.account-set{
+  margin-left:120px;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-top:150px;
+  margin-bottom: 40px;
+}
+.line-set {
+    display: run-in;
+    margin-start: 50px;
+    margin-end:300px;
+    margin-top: 40px;
+    border-style: inset;
+    border-width: 0.5px;
+    border-color: silver;
+}
+.help-view{
+  margin-bottom: 0px;
+  margin-top:0px;
+  list-style: none;
+  padding:0px;
+}
+</style>
+<!-- 1)class can be used for the instruction or it can directly be put inside the h1 tag
+2)font-family: FAMILY NAME, GENERIC NAME; generic name is used when family name is not available-->
+<html>
+<body>
+  <div class="box">
+  <img class="smaller-image image-place" src="file:///C:/Users/snehal/Desktop/evolving_google_identity_share.jpg">
+<p4 class="black-text text-place">
+Choose an account</p4>
+<ul>
+<p1><li>snehal waykole</li></p1>
+  <input type="text" placeholder="login id">
+  <a href="https://accounts.google.com/signin/v2/sl/pwd?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession&cid=0&navigationDirection=forward" target="_blank">
+  <button type="submit">Sign In</button></a>
+  <p2><li>college</li></p2>
+  <input type="text" placeholder="login id">
+  <a href="https://accounts.google.com/signin/v2/sl/pwd?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession&cid=0&navigationDirection=forward" target="_blank">
+  <button type="submit">Sign In</button></a>
+  <p3><li>other account</li></p3>
+  <input type="text" placeholder="login id">
+  <a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession" target="_blank">
+  <button type="submit">Sign In</button></a>
+</ul>
+<div class="line-set"></div>
+<div class="account-set">Remove an account</div>
+</div>
+<ul class="help-view">
+  <li>help</li>
+  <li>privacy</li>
+  <li>terms</li>
+</ul>
+</body>
+</html>
